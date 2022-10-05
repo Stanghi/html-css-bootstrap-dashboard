@@ -1,12 +1,14 @@
 /* ----------------GENERAL---------------- */
+/* no content */
 
 /* ----------------UTILITY---------------- */
 .debug{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 0, 0, 0.5);
     border: 1px solid black;
 }
 
 /* ---------------COMPONENTS--------------- */
+/* no content */
 
 /* -----------------HEADER----------------- */
 header i{
@@ -65,7 +67,6 @@ header i{
 
 .content{
     height: calc(100vh - 54px);
-
 }
 
 .content-top{
@@ -79,3 +80,4 @@ header i{
 }
 
 /* -----------------FOOTER----------------- */
+/* no content */
