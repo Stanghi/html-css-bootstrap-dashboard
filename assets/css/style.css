@@ -9,7 +9,73 @@
 /* ---------------COMPONENTS--------------- */
 
 /* -----------------HEADER----------------- */
+header i{
+    padding: 10px;
+}
 
+#mobile-logo{
+    width: 50px;
+}
+
+.has-search .form-control {
+    padding-left: 2.3rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.3rem;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    text-align: center;
+    pointer-events: none;
+    color: black;
+}
+
+.fa-bell{
+    color: orange;
+}
 /* ------------------MAIN------------------ */
+.aside{
+    height: calc(100vh - 70px);
+    background-color: #051e34;
+    background-image: url('../img/sidebar-bg.png');
+    color: white;
+}
+
+.aside i{
+    margin: 5px;
+}
+
+.aside-top ul{
+    padding-top: 20px;
+}
+
+.aside-top ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.aside-top ul li a, 
+.aside-bottom a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    height: calc(100vh - 70px);
+
+}
+
+.content-top{
+    height: 85px;
+    background-color: #1a73e8;
+}
+
+.class-avatar{
+    width: 25px;
+    margin-right: 10px;
+}
 
 /* -----------------FOOTER----------------- */
