@@ -69,14 +69,20 @@ header i{
     color: white;
 }
 
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -125px;
+    margin-top: var(--bs-dropdown-spacer);
+}
+
 .ms-form{
     position: absolute;
     top: 0;
-    right: 700px;
+    right: 900px;
 }
 
 .ms-card{
-    width: 700px;
+    width: 900px;
     height: 100vh;
     z-index: 999;
 }
