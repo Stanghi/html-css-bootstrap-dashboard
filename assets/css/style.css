@@ -75,18 +75,6 @@ header i{
     margin-top: var(--bs-dropdown-spacer);
 }
 
-.ms-form{
-    position: absolute;
-    top: 0;
-    right: 900px;
-}
-
-.ms-card{
-    width: 900px;
-    height: 100vh;
-    z-index: 999;
-}
-
 .content{
     height: calc(100vh - 54px);
 }
