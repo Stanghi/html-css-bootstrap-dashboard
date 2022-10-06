@@ -76,8 +76,82 @@
                     
                     <!-- CONTENT -->
                     <div class="col-11 content overflow-auto">
-                        <div class="row">
 
+                        <div class="ms-form" id="ao">
+                            <div class="collapse collapse-horizontal position-absolute" id="collapseWidthExample">
+                                
+                                <div class="card ms-card card-body">
+                                    <div class="ms-form-collapse-top d-flex justify-content-between mb-3">
+                                        <h4>Form</h4>
+                                        <button type="button" class="btn-close" aria-label="Close"></button>
+                                        </button>                                    
+                                    </div>
+
+                                    <form>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <label for="inputPassword5" class="form-label">Password</label>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-6">
+                                                    <label for="inputPassword5" class="form-label">Password</label>
+                                                    <input type="password" id="inputPassword5" class="form-control mb-3" aria-describedby="passwordHelpBlock">
+                                                    <div id="passwordHelpBlock" class="form-text"></div>
+                                                </div>
+                                            </div>
+                                                
+                                            <label for="inputPassword5" class="form-label">Indirizzo</label>
+                                            <input class="form-control mb-3" type="text" aria-label="readonly input example" readonly>
+    
+    
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <label for="inputPassword5" class="form-label">Città</label>
+                                                    <input class="form-control mb-3" type="text" aria-label="readonly input example" readonly>
+                                                </div>
+                                                
+                                                <div class="col-4">
+                                                    <label for="inputPassword5" class="form-label">Stato</label>
+                                                    <div class="mb-3">
+                                                        <select id="disabledSelect" class="form-select">
+                                                            <option>Scegli...</option>
+                                                            <option>lorem</option>
+                                                            <option>lorem</option>
+                                                            <option>lorem</option>
+                                                            <option>lorem</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="col-2">
+                                                    <label for="inputPassword5" class="form-label">CAP</label>
+                                                    <input class="form-control mb-3" type="text" aria-label="readonly input example" readonly>
+                                                </div>
+                                            </div>
+    
+                                            <label for="inputPassword5" class="form-label">Foto</label>
+                                            <div class="input-group mb-3">
+                                                <input type="file" class="form-control" id="inputGroupFile02">
+                                            </div>
+    
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">Seleziona per proseguire
+                                                </label>
+                                            </div>
+    
+                                            <button type="button" class="btn btn-primary me-2 mt-2">Salva</button>
+                                            <button type="button" class="btn btn-warning mt-2">Svuota</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
                             <div class="container-fluid content-top">
                                 <div class="row">
 
@@ -112,7 +186,7 @@
                                 <div class="card mt-2 mb-4">
                                     <div class="card-header d-flex justify-content-between">
                                         <h4>Prossime classi</h4>
-                                        <button type="button" class="btn btn-outline-primary">
+                                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                                             <i class="fa-solid fa-plus"></i>
                                         </button>
                                     </div>
@@ -131,7 +205,7 @@
                                             <tbody class="table-group-divider">
         
                                                 <tr>
-                                                    <td >
+                                                    <td>
                                                         <img class="class-avatar" src="assets/img/class-avatar.jpg" alt="class-avatar">
                                                         Classe 75
                                                     </td>
